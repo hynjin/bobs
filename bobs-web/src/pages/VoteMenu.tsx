@@ -31,7 +31,7 @@ function VoteMenu() {
             <header className="App-header">
                 <p>메뉴 선택!</p>
                 {MenuList()}
-                <p>선택한 메뉴 : {selectedMenu}</p>
+                <p>선택한 메뉴!!! : {selectedMenu}</p>
                 <button onClick={onClickVote}>신청</button>
             </header>
         </div>
